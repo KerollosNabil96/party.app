@@ -1,0 +1,136 @@
+*{
+    list-style: none;
+    color: white;
+}
+#navbar{
+    overflow: hidden;
+    box-sizing: border-box;
+    background-image:url(./360_F_287357045_Ib0oYOxhotdjOEHi0vkggpZTQCsz0r19.jpg);
+    background-repeat: no-repeat;
+    background-position: 100% 100%;
+    background-size: cover;
+    width: 100%;
+    height: 41.25rem;
+}
+a{
+text-decoration: none;
+transition: 0.3s all;
+}
+
+
+.navBarInfo{
+    height: 41.25rem;
+    width: 12.5rem;
+    left: -12.5rem;
+    z-index: 100;
+}
+.open{
+    /* left: 220px;  */
+    left: 1%;
+    top: 350px; 
+    font-size: 1.875rem;
+    cursor: pointer;
+}
+a:hover{
+    color:#dc3545  !important;
+}
+#close{
+    left: 82%;
+    padding-bottom: 1.25rem;
+    transition: 0.3s all; 
+    cursor: pointer;
+}
+#close:hover{
+    color: #dc3545  !important;
+}
+.accordion-button{
+    color: white;
+    font-size: 1.875rem;
+}
+.accordion-body{
+    background-color: rgb(204,204,204);
+}
+
+
+
+/* ---------------------------------------------------- */
+#sliderDown
+{
+    margin: 100px auto;
+    width: 50%;
+    
+}
+
+#sliderDown h3
+{
+    padding: 10px;
+    margin: 0;
+    background-color: rgba(214, 46, 51 , 0.6);
+    cursor: pointer;
+    color: white;
+}
+/* ---------------------------------------------- */
+#sliderDown div
+{
+    padding: 10px;
+    background-color: #ccc;
+    display: none;
+}
+
+
+
+#sliderDown .first{
+    display:block;
+}
+/* ----------------------------------------- */
+#timer , #accordionn{
+    margin-block: 6.75rem !important;
+}
+#contact{
+    margin-top: 6.25rem;
+}
+.getcenter{
+    font-size: 1rem;
+    text-align: center;
+    padding-bottom: 1.7rem;
+}
+textarea{
+    resize: vertical;
+}
+.social i {
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid #999;
+    color: #999;
+    text-align: center;
+    padding-top: 8px;
+    cursor: pointer;
+    margin-right:11px ;
+    transition: 0.3s all;
+}
+.social i:hover{
+    background-color: #dc3545;
+    color: white;
+    border: 1px solid #dc3545;
+}
+.ggg{
+    position:relative;
+}
+.ggg::after{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin-top: 5px;
+background-color: #dc3545;
+}
+.ggg::before{
+    content: "";
+    display: block;
+    height: 3px;
+    width: 130px;
+    position: absolute;;
+    left: 20px;
+    bottom: -10%;
+background-color: #dc3545;
+}
